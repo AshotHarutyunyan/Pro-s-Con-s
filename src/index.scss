@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: 1px solid;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 80%;
+}
+.container {
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prosconsContainer {
+  border: 1px solid;
+  min-width: 320px;
+  h1 {
+    text-align: center;
+  }
+  .dFlex {
+    display: flex;
+  }
+  .prosCons {
+    border: 1px solid;
+    width: 50%;
+    h2 {
+      border-bottom: 1px solid;
+    }
+    form.addProsConsForm {
+      padding: 1rem;
+    }
+    .content {
+      border-bottom: 1px solid;
+      min-height: 60vh;
+      overflow-y: auto;
+      max-height: 60vh;
+    }
+    .prosConsItem {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.2rem;
+      border: 1px solid;
+      margin: 0.2rem;
+      p {
+        max-width: 90%;
+        word-break: break-word;
+      }
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
